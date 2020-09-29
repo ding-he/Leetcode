@@ -59,8 +59,7 @@ void do_iteration(int begin, int end)
 int main(int argc, char *argv[])
 {
 	const int const_iter = 100;
-	int iter;
-	int i;
+	int iter = 0;
 
 	if (argc == 2) {
 		iter = atoi(argv[1]);
